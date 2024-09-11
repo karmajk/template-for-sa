@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: 82161846  # 추가된 부분
+      app: my-82161846  # 추가된 부분
   template:
     metadata:
       labels:
-        app: 82161846  # 추가된 부분
+        app: my-82161846  # 추가된 부분
     spec:
       containers:
         - name: 82161846 
