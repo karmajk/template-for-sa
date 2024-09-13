@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: 82161846-ingress
-  namespace: 82161846
+  namespace: "82161846"
 spec:
   ingressClassName: ingress-nginx
   rules:
