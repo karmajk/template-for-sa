@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: 82161846-ingress
 spec:
-  ingressClassName: ingress-internal
+  ingressClassName: ingress-nginx
   rules:
   - host: argocd.ce-82161846-sa.kubepia.net
     http:
