@@ -4,7 +4,7 @@ metadata:
   name: 82161846-ingress
   namespace: 82161846
 spec:
-  ingressClassName: ingress-internal
+  ingressClassName: nginx
   rules:
   - host: argocd.ce-82161846-sa.kubepia.net
     http:
