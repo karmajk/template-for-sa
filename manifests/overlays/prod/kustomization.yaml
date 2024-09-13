@@ -8,7 +8,6 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - ingress.yaml
-- application.yml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namePrefix: prod-
