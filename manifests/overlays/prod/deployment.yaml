@@ -15,7 +15,7 @@ spec:
       containers:
         - name: 82161846 
           command: ["java","-jar","/app.jar"]
-          args: ["--spring.config.location=file:/config/application.yml"]
+          args: ["--spring.config.location=file:/config/application.yaml"]
           volumeMounts:
           - mountPath: /mnt/cloud-sample
             name: 82161846-volume
