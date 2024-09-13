@@ -11,9 +11,19 @@ configMapGenerator:
   - name: 82161846-configmap
     files:
       - application.yml
-patchesStrategicMerge:
-  - deployment.yaml
-  - ingress.yaml
+patches:
+  - target:
+      group: apps
+      version: v1
+      kind: Deployment
+      name: 82161846
+    path: deployment.yaml
+  - target:
+      group: networking.k8s.io
+      version: v1
+      kind: Ingress
+      name: 82161846-ingress
+    path: ingress.yaml
 images:
   - name: cepgstapacr.azurecr.io/82161846
     newTag: "202409130344"
