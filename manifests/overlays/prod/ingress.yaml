@@ -14,5 +14,5 @@ spec:
           service:
             name: prod-my-82161846
             port:
-              number: 8080
+              number: 80
         pathType: Prefix
