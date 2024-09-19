@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: "82161846-prod.cepg-sa.kubepia.net"
+  - host: "prod.ce-82161846-sa.kubepia.net"
     http:
       paths:
       - path: /
